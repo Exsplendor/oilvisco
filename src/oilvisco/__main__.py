@@ -8,7 +8,7 @@ def start():
     inputs = inputloop()
     blended_oil = blend(inputs)
 
-    print(f'The resulting oil of {blended_oil.liter} liters has the tyoe: {blended_oil.lower}W{blended_oil.upper}')
+    print(f'The resulting oil of {blended_oil.liter} liters has the type: {blended_oil.lower}W{blended_oil.upper}')
 
     
 
