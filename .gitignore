@@ -2,6 +2,7 @@
 *.pyc
 
 meta/venv
+dist/
 
 .tox
 .pytest_cache

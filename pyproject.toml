@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "oilvisco"
-version = "23.01.30"
+version = "23.01.31.1"
 authors = [
   { name="splendor", email="splendor@tuta.io" },
 ]
@@ -26,6 +26,7 @@ Homepage = "https://github.com/Exsplendor/oilvisco"
 
 [project.scripts]
 mische = "oilvisco.__main__:start"
+#mischen = "oilvisco.__main__:batch"
 
 
 [tool.pytest.ini_options]
