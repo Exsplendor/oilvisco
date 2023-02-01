@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "oilvisco"
+version = "23.01.30"
+authors = [
+  { name="splendor", email="splendor@tuta.io" },
+]
+description = "Converts text to html. Text muste be in t5html form."
+readme = "doc/ReadMe.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://github.com/Exsplendor/oilvisco"
+"Bug Tracker" = "https://github.com/Exsplendor/oilvisco/issues"
+
+
+[project.scripts]
+mische = "oilvisco.__main__:start"
+
+
+[tool.pytest.ini_options]
+pythonpath = [ "src", ]
+testpaths = [ "test", ] 
